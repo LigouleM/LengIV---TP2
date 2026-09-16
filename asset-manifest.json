@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LengIV---TP2/static/css/main.137409af.css",
+    "main.js": "/LengIV---TP2/static/js/main.cffd0f91.js",
+    "static/js/453.2c61bac1.chunk.js": "/LengIV---TP2/static/js/453.2c61bac1.chunk.js",
+    "index.html": "/LengIV---TP2/index.html",
+    "main.137409af.css.map": "/LengIV---TP2/static/css/main.137409af.css.map",
+    "main.cffd0f91.js.map": "/LengIV---TP2/static/js/main.cffd0f91.js.map",
+    "453.2c61bac1.chunk.js.map": "/LengIV---TP2/static/js/453.2c61bac1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.137409af.css",
+    "static/js/main.cffd0f91.js"
+  ]
+}
