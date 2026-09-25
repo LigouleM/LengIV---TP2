@@ -16,6 +16,7 @@ function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Inicio/>}/>
+            <Route path="/LengIV---TP2" element={<Inicio/>}/>
             <Route path="/servicios" element={<Servicios/>}/>
             <Route path="/contacto" element={<Contacto/>}/>
             <Route path="*" element={<NoEncontrada/>}/>
