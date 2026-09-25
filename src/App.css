@@ -66,3 +66,145 @@ body {
   font-size: 2.5rem;
   color: #282C34
 }
+
+.form-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #2B2E38;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #CCCCCC;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #61DAFB;
+  box-shadow: 0 0 0 3px rgba(97, 218, 251, 0.2);
+}
+
+.form-group input.input-error,
+.form-group textarea.input-error {
+  border-color: #E74C3C;
+  background-color: #FDF2F1;
+}
+
+.form-group input.input-error:focus,
+.form-group textarea.input-error:focus {
+  box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.2);
+}
+
+.error-text {
+  color: #E74C3C;
+  font-size: 0.85rem;
+  margin-top: 6px;
+  font-weight: 600;
+  animation: fadeIn 0.3 ease;
+}
+
+.form-group-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 5px;
+  min-height: 20px;
+}
+
+.char-counter {
+  font-size: 0.85rem;
+  color: #888888;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.char-counter.limite {
+  color: #E74C3C;
+  font-weight: bold;
+}
+
+.submit-btn {
+  background-color: #2B2E38;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: backgroud-color 0.3s, transform 0,1s;
+  margin-top: 15px;
+}
+
+.submit-btn:hover {
+  background-color: #3B3F4C;
+}
+
+.submit-btn:active {
+  transform: scale(0.98);
+}
+
+.mensaje-exito {
+  text-align: center;
+  padding: 50px 30px;
+  border: 2px solid #2ECC71;
+  border-radius: 8px;
+  background-color: #F4FDF8;
+  width: 100%;
+  max-width: 500px;
+}
+
+.mensaje-exito h3 {
+  color: #27AE60;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.btn-volver {
+  background-color: #27AE60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-volver:hover {
+  background-color: #219653;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
