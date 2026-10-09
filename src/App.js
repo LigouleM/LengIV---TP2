@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 import Contacto from './pages/contacto';
 import Inicio from './pages/inicio';
 import Servicios from './pages/servicios';
@@ -22,6 +23,8 @@ function App() {
             <Route path="*" element={<NoEncontrada/>}/>
           </Routes>
         </main>
+
+        <Footer/>
       </div>
     </Router>
   );
