@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/LengIV---TP2/static/css/main.e61aff08.css",
-    "main.js": "/LengIV---TP2/static/js/main.22031245.js",
+    "main.css": "/LengIV---TP2/static/css/main.5b4675eb.css",
+    "main.js": "/LengIV---TP2/static/js/main.f6fde465.js",
     "static/js/453.2c61bac1.chunk.js": "/LengIV---TP2/static/js/453.2c61bac1.chunk.js",
     "index.html": "/LengIV---TP2/index.html",
-    "main.e61aff08.css.map": "/LengIV---TP2/static/css/main.e61aff08.css.map",
-    "main.22031245.js.map": "/LengIV---TP2/static/js/main.22031245.js.map",
+    "main.5b4675eb.css.map": "/LengIV---TP2/static/css/main.5b4675eb.css.map",
+    "main.f6fde465.js.map": "/LengIV---TP2/static/js/main.f6fde465.js.map",
     "453.2c61bac1.chunk.js.map": "/LengIV---TP2/static/js/453.2c61bac1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e61aff08.css",
-    "static/js/main.22031245.js"
+    "static/css/main.5b4675eb.css",
+    "static/js/main.f6fde465.js"
   ]
 }
